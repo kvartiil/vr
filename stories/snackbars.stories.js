@@ -120,4 +120,4 @@ storiesOf('Snackbars', module)
         '    <img class="close" src="assets/Icons/close.png" alt="sulge">\n' +
         '    <p>Suunatud e-postile kasutaja kairi.sarapuu@gmail.com <br>\n' +
         '        Soovi korral muuda suunamine kohe siin või vasak menüüst "Minu andmed" - "Suunamine.</p>\n' +
-        '</div>')
+        '</div>');
