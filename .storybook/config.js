@@ -2,7 +2,7 @@
 
 import { configure, addDecorator } from '@storybook/html';
 import { withA11y } from '@storybook/addon-a11y';
-import '../node_modules/veera-styles/main-storybook.scss';
+import '../node_modules/veera-styles/scss/main-storybook.scss';
 
 addDecorator(withA11y);
 
