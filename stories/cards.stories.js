@@ -7,7 +7,7 @@ storiesOf('Cards', module)
         '        <h1>title</h1>\n' +
         '    </div>\n' +
         '    <hr class="line c-card">\n' +
-        '    <h3>Heading</h3>\n' +
+        '    <h2>Heading</h2>\n' +
         '</div>')
     .add('List large', () => '<div class="c-card c-card--large">\n' +
         '    <div>\n' +
@@ -15,7 +15,7 @@ storiesOf('Cards', module)
         '        <h1>title</h1>\n' +
         '    </div>\n' +
         '    <hr class="c-card line">\n' +
-        '    <h3>Heading</h3>\n' +
+        '    <h2>Heading</h2>\n' +
         '    <table class="card-columns">\n' +
         '        <tbody>\n' +
         '        <tr>\n' +
@@ -59,7 +59,7 @@ storiesOf('Cards', module)
         '        </button>\n' +
         '    </div>\n' +
         '    <hr class="line c-card">\n' +
-        '    <h3>Heading</h3>\n' +
+        '    <h2>Heading</h2>\n' +
         '    <div class="collapse">\n' +
         '        <table class="card-columns">\n' +
         '            <tbody>\n' +
