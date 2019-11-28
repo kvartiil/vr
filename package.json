@@ -5,14 +5,20 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "storybook": "start-storybook -p 6006",
+    "storybook": "start-storybook -s ./ -p 6006",
     "build-storybook": "build-storybook"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "veera-styles": "git+https://koodivaramu.eesti.ee/veebiraamistik/veera/veera-styles.git#master"
+    "bootstrap": "^4.3.1",
+    "bootstrap-loader": "^3.0.4",
+    "bootstrap-sass": "^3.4.1",
+    "imports-loader": "^0.8.0",
+    "jquery": "^3.4.1",
+    "resolve-url-loader": "^3.1.0",
+    "veera-styles": "git+https://koodivaramu.eesti.ee/veebiraamistik/veera/veera-styles.git#Navigation"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
@@ -26,7 +32,9 @@
     "babel-loader": "^8.0.6",
     "css-loader": "^3.2.0",
     "node-sass": "^4.12.0",
+    "raw-loader": "^3.1.0",
     "sass-loader": "^8.0.0",
+    "storybook-addon-run-script": "^0.1.4",
     "style-loader": "^1.0.0"
   }
 }
